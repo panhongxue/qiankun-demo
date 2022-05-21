@@ -1,0 +1,12 @@
+{
+  "name": "qiankun-demo",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start --stream",
+    "build": "lerna run build --stream",
+    "installAll": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
